@@ -11,8 +11,5 @@ export class UpdateStudentDto extends PartialType(CreateStudentDto) {
     name: string;
 
     @ApiProperty()
-    age: number;
-
-    @ApiProperty()
     avatar: string;
 }
