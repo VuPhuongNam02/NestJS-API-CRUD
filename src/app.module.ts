@@ -7,7 +7,7 @@ import { StudentsService } from './students/students.service';
 
 @Module({
   imports: [
-    MongooseModule.forRoot(process.env.DATABASE_URL || "mongodb://localhost:27017/nest"),
+    MongooseModule.forRoot(process.env.DATABASE_URL),
     StudentsModule
   ],
   controllers: [],
