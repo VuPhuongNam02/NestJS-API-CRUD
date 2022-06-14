@@ -16,7 +16,8 @@ export class StudentsController {
 
   @Get()
   findAll() {
-    return this.studentsService.findAll();
+    return 'hello'
+    // return this.studentsService.findAll();
   }
 
   @Get(':id')
