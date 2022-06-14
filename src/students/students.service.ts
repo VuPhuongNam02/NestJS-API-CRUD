@@ -18,8 +18,8 @@ export class StudentsService {
     return this.studentModel.find().exec();
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} student`;
+  findOne(_id: number) {
+    return `This action returns a #${_id} student`;
   }
 
   update(id: number, updateStudentDto: UpdateStudentDto) {
